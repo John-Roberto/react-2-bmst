@@ -1,10 +1,10 @@
-import { Link } from "react-router-dom";
+import Contador from "./Contador";
 
 export default function Atv02() {
     return(
         <>
             <h1>Atividades da Semana 2</h1>
-            <Link to="/">Voltar</Link>
+            <Contador />
         </>
     );
 }
